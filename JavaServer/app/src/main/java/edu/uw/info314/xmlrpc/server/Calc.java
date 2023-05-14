@@ -1,17 +1,17 @@
 package edu.uw.info314.xmlrpc.server;
 
 public class Calc {
-    public int add(int... args) {
+    public static int add(Integer... args) {
         int result = 0;
         for (int arg : args) { result += arg; }
         return result;
     }
-    public int subtract(int lhs, int rhs) { return lhs - rhs; }
-    public int multiply(int... args) {
-        int result = 0;
+    public static int subtract(int lhs, int rhs) { return lhs - rhs; }
+    public static int multiply(Integer... args) {
+        int result = 1;
         for (int arg : args) { result *= arg; }
         return result;
     }
-    public int divide(int lhs, int rhs) { return lhs / rhs; }
-    public int modulo(int lhs, int rhs) { return lhs % rhs; }
+    public static int divide(int lhs, int rhs) { return lhs / rhs; }
+    public static int modulo(int lhs, int rhs) { return lhs % rhs; }
 }

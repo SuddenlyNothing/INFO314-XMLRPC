@@ -1,6 +1,11 @@
 # INFO314-XMLRPC
 A homework assignment for my INFO314 course.
 
+## Interoperability
+
+Tested [Emily's](https://github.com/emilysmokoff/INFO314-XMLRPC) client on my server and it worked.\
+Tested [Chutengli's](https://github.com/Chutengli/INFO314-XMLRPC) server on my client and it worked.
+
 ## Goal
 You must build a client and server for a calculator application using the XML-RPC "standard". You are free to do this in Java, Python, or any other language you prefer, but it must follow the structure and format dictated by the XML-RPC website.
 
